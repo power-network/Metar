@@ -16,7 +16,6 @@ import com.example.qiaoyanxiong.resenter.shop.fragment.BookFragment;
 import com.example.qiaoyanxiong.resenter.shop.fragment.ClassFragment;
 
 import java.util.ArrayList;
-
 /**
  * 李玉爽
  * A simple {@link Fragment} subclass.

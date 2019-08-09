@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/shop"
+            android:text=""
             android:textColor="@color/colorWhite"
             android:textSize="25sp" />
     </android.support.v7.widget.Toolbar>
@@ -38,6 +38,5 @@
         android:layout_height="match_parent"
         android:layout_above="@id/main_tab_layout"
         android:layout_below="@id/main_toolbar" />
-
 
 </RelativeLayout>
