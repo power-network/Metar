@@ -69,20 +69,7 @@ public class KeChengDataBean {
 
 
         public static class KechengBean {
-            @Override
-            public String toString() {
-                return "KechengBean{" +
-                        "id='" + id + '\'' +
-                        ", name='" + name + '\'' +
-                        ", class_hour='" + class_hour + '\'' +
-                        ", type='" + type + '\'' +
-                        ", pic='" + pic + '\'' +
-                        ", jia_ge='" + jia_ge + '\'' +
-                        ", yuan_jia_ge='" + yuan_jia_ge + '\'' +
-                        ", price_status='" + price_status + '\'' +
-                        ", type_str=" + type_str +
-                        '}';
-            }
+
 
             /**
              * id : 30
@@ -104,8 +91,30 @@ public class KeChengDataBean {
             private String jia_ge;
             private String yuan_jia_ge;
             private String price_status;
-            private List<?> type_str;
+            private List<String> type_str;
 
+            public List<String> getType_str() {
+                return type_str;
+            }
+
+            public void setType_str(List<String> type_str) {
+                this.type_str = type_str;
+            }
+
+            @Override
+            public String toString() {
+                return "KechengBean{" +
+                        "id='" + id + '\'' +
+                        ", name='" + name + '\'' +
+                        ", class_hour='" + class_hour + '\'' +
+                        ", type='" + type + '\'' +
+                        ", pic='" + pic + '\'' +
+                        ", jia_ge='" + jia_ge + '\'' +
+                        ", yuan_jia_ge='" + yuan_jia_ge + '\'' +
+                        ", price_status='" + price_status + '\'' +
+                        ", type_str=" + type_str +
+                        '}';
+            }
             public String getId() {
                 return id;
             }
@@ -170,12 +179,22 @@ public class KeChengDataBean {
                 this.price_status = price_status;
             }
 
-            public List<?> getType_str() {
-                return type_str;
-            }
 
-            public void setType_str(List<?> type_str) {
-                this.type_str = type_str;
+
+            public static class Typestr {
+                private String news;
+
+                public Typestr(String news) {
+                    this.news = news;
+                }
+
+                public String getNews() {
+                    return news;
+                }
+
+                public void setNews(String news) {
+                    this.news = news;
+                }
             }
         }
 

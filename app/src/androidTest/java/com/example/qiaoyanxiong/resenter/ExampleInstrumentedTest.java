@@ -45,7 +45,7 @@ public class ExampleInstrumentedTest {
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
-        Observable<KeChengDataBean> shop = retrofit.create(MyShopService.class).getShop();
+        Observable<KeChengDataBean> shop = retrofit.create(MyShopService.class).getShop(0, 1);
         shop.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<KeChengDataBean>() {

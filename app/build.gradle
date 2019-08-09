@@ -61,4 +61,7 @@ dependencies {
     //EventBus 事件
     implementation 'org.greenrobot:eventbus:3.1.1'
 
+    //日志拦截器的依赖
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+
 }

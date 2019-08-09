@@ -53,13 +53,17 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         switchFragment(0);
                         break;
-                    case 1:switchFragment(1);
+                    case 1:
+                        switchFragment(1);
                         break;
-                    case 2:switchFragment(2);
+                    case 2:
+                        switchFragment(2);
                         break;
-                    case 3:switchFragment(3);
+                    case 3:
+                        switchFragment(3);
                         break;
-                    case 4:switchFragment(4);
+                    case 4:
+                        switchFragment(4);
                         break;
                 }
             }
@@ -97,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         mMainTabLayout.addTab(mMainTabLayout.newTab().setText(R.string.shop).setIcon(R.drawable.shopselect));
         mMainTabLayout.addTab(mMainTabLayout.newTab().setText(R.string.course).setIcon(R.drawable.courseselect));
         mMainTabLayout.addTab(mMainTabLayout.newTab().setText(R.string.forum).setIcon(R.drawable.forumselect));
-        mMainTabLayout.addTab(mMainTabLayout.newTab().setText(R.string.me).setIcon(R.drawable.bankselect));
+        mMainTabLayout.addTab(mMainTabLayout.newTab().setText(R.string.me).setIcon(R.drawable.meselect));
     }
 
     private int last;
