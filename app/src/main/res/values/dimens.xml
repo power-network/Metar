@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="line">0.5dp</dimen>
+
+    <!--我的界面字体-->
+    <dimen name="my_text_size">12sp</dimen>
+
+    <dimen name="iv_id">70dp</dimen>
+
+
+    <!--提现界面字体-->
+    <dimen name="reflect_text">14sp</dimen>
+
+
+    <!--订单详情标题-->
+    <dimen name="detail_order_title">16sp</dimen>
+    <!--订单详情内容-->
+    <dimen name="detail_order_content">14sp</dimen>
+
+    <!--tablayout下划线高度-->
+    <dimen name="tabIndicatorHeight">1.5dp</dimen>
+    <!--提交按钮padding-->
+    <dimen name="submitPadding">12dp</dimen>
+    <dimen name="main_fant">15sp</dimen>
+    <dimen name="sub_fant">13sp</dimen>
+</resources>
