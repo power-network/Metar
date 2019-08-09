@@ -1,5 +1,6 @@
 package com.example.qiaoyanxiong.resenter.utils;
 
+<<<<<<< HEAD
 import com.example.qiaoyanxiong.resenter.base.BaseResponse;
 import com.example.qiaoyanxiong.resenter.http.ApiException;
 
@@ -10,12 +11,22 @@ import io.reactivex.ObservableSource;
 import io.reactivex.ObservableTransformer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Function;
+=======
+import io.reactivex.Observable;
+import io.reactivex.ObservableSource;
+import io.reactivex.ObservableTransformer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+>>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
 import io.reactivex.schedulers.Schedulers;
 
 public class RxUtils {
 
+<<<<<<< HEAD
     //简化线程切换的代码
     public static <T>ObservableTransformer<T,T> rxScheduleThread(){
+=======
+    public static <T> ObservableTransformer<T, T> rxScheduleThread() {
+>>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
         return new ObservableTransformer<T, T>() {
             @Override
             public ObservableSource<T> apply(Observable<T> upstream) {
@@ -23,6 +34,7 @@ public class RxUtils {
             }
         };
     }
+<<<<<<< HEAD
 
     //将数据转换成想要的数据
     public static <T> ObservableTransformer<BaseResponse<T>,T> changeResult(){
@@ -53,4 +65,6 @@ public class RxUtils {
         };
     }
 
+=======
+>>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
 }
