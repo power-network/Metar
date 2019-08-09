@@ -1,8 +1,5 @@
 package com.example.qiaoyanxiong.resenter.fragment;
 
-<<<<<<< HEAD
-public class CourseFragment {
-=======
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,13 +9,14 @@ import android.view.ViewGroup;
 
 import com.example.qiaoyanxiong.resenter.R;
 
-/**
+/** 
+ * 李玉爽
  * A simple {@link Fragment} subclass.
  */
-public class CourseFragment extends Fragment {
+public class ShopFragment extends Fragment {
 
 
-    public CourseFragment() {
+    public ShopFragment() {
         // Required empty public constructor
     }
 
@@ -27,8 +25,7 @@ public class CourseFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_course, container, false);
+        return inflater.inflate(R.layout.fragment_shop, container, false);
     }
 
->>>>>>> ea20def8198ef62ba9aa2de7b8d7bdd80d26bf7a
 }

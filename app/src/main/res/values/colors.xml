@@ -8,6 +8,9 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
 
+    <color name="selecttab">#74FFE3</color>
+    <color name="noselecttab">#EEEEEE</color>
+
     <!--分割线-->
     <color name="colorLine">#D3D3D3</color>
     <!--分割线-->
