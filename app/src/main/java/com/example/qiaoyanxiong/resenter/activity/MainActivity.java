@@ -11,11 +11,11 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import com.example.qiaoyanxiong.resenter.R;
-import com.example.qiaoyanxiong.resenter.fragment.BankFragment;
+//import com.example.qiaoyanxiong.resenter.fragment.BankFragment;
 import com.example.qiaoyanxiong.resenter.fragment.CourseFragment;
-import com.example.qiaoyanxiong.resenter.fragment.ForumFragment;
+//import com.example.qiaoyanxiong.resenter.fragment.ForumFragment;
 import com.example.qiaoyanxiong.resenter.fragment.MeFragment;
-import com.example.qiaoyanxiong.resenter.fragment.ShopFragment;
+//import com.example.qiaoyanxiong.resenter.fragment.ShopFragment;
 
 import java.util.ArrayList;
 
@@ -105,10 +105,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void addFragments() {
         fragments = new ArrayList<>();
-        fragments.add(new BankFragment());
-        fragments.add(new ShopFragment());
+//        fragments.add(new BankFragment());
+//        fragments.add(new ShopFragment());
         fragments.add(new CourseFragment());
-        fragments.add(new ForumFragment());
+//        fragments.add(new ForumFragment());
         fragments.add(new MeFragment());
     }
 
