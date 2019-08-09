@@ -9,7 +9,8 @@ import android.view.ViewGroup;
 
 import com.example.qiaoyanxiong.resenter.R;
 
-/**
+/** 
+ * 李玉爽
  * A simple {@link Fragment} subclass.
  */
 public class ShopFragment extends Fragment {
