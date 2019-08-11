@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    tools:context=".activity.MainActivity">
-
-
-
-=======
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activity.MainActivity">
 
@@ -48,6 +37,5 @@
         android:layout_height="match_parent"
         android:layout_above="@id/main_tab_layout"
         android:layout_below="@id/main_toolbar" />
->>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
 
 </RelativeLayout>

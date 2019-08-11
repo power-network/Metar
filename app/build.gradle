@@ -20,6 +20,7 @@ android {
         exclude 'META-INF/proguard/androidx-annotations.pro'
     }
 
+
 }
 
 dependencies {
@@ -68,12 +69,19 @@ dependencies {
     //EventBus 事件
     implementation 'org.greenrobot:eventbus:3.1.1'
 
-<<<<<<< HEAD
     //ok拦截器
     implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
-=======
+
     //日志拦截器的依赖
     implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
->>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
 
+
+}
+buildscript {
+    repositories {
+        mavenCentral() // or jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'   //last version Jan 2016
+    }
 }

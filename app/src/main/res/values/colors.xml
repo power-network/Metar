@@ -8,12 +8,9 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
 
-<<<<<<< HEAD
-=======
     <color name="selecttab">#74FFE3</color>
     <color name="noselecttab">#EEEEEE</color>
 
->>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
     <!--分割线-->
     <color name="colorLine">#D3D3D3</color>
     <!--分割线-->

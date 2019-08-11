@@ -7,9 +7,6 @@
         <attr name="civ_fill_color" format="color" />
     </declare-styleable>
 
-
-
-
     <!--webview加载进度-->
     <declare-styleable name="WebViewWithProgress">
         <attr name="progressStyle" format="enum">
