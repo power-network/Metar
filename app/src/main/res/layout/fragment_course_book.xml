@@ -23,10 +23,10 @@
     </RelativeLayout>
 
 
-    <com.medicalmall.app.view.CustomViewPager
-        android:id="@+id/vp_content"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recly"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
 
 
 </LinearLayout>
