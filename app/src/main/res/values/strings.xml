@@ -7,4 +7,14 @@
     <string name="viewpager_indicator">%1$d/%2$d</string>
     <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
     <string name="checkbox_text"><Data><![CDATA[<font color="#55A8DE"><b>&#060;&#060;医研梦在线注册条款&#062;&#062;</b></font>]]></Data></string>
+
+    <string name="bank">题库</string>
+    <string name="shop">商城</string>
+    <string name="course">课程</string>
+    <string name="forum">论坛</string>
+    <string name="me">我</string>
+
+    <string name="all">全部</string>
+    <string name="book">图书</string>
+    <string name="class1">课程</string>
 </resources>
