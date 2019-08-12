@@ -7,13 +7,10 @@
     android:orientation="vertical"
     tools:context=".activity.MainActivity">
 
-<<<<<<< HEAD
     <FrameLayout
         android:id="@+id/fl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-=======
->>>>>>> d5f3668f65337b26bcd60a53cdf64cc9e6a469ae
     <android.support.v7.widget.Toolbar
         android:id="@+id/main_toolbar"
         android:layout_width="match_parent"
