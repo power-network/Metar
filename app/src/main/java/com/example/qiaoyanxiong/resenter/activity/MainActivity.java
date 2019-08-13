@@ -20,7 +20,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Toolbar mMainToolbar;
     private TabLayout mMainTabLayout;
     private FrameLayout mMainFragment;
     private ArrayList<Fragment> fragments;
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        mMainToolbar = (Toolbar) findViewById(R.id.main_toolbar);
         mMainTabLayout = (TabLayout) findViewById(R.id.main_tab_layout);
         mMainFragment = (FrameLayout) findViewById(R.id.main_fragment);
 

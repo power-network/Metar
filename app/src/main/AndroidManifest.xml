@@ -3,6 +3,9 @@
     package="com.example.qiaoyanxiong.resenter">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".app.MyApp"
         android:allowBackup="true"
@@ -11,9 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
-
-        </activity>
+        <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.AnimActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +22,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.PhotoActivity" />
+        <activity android:name=".activity.PopuwinActivity" />
+        <activity android:name=".me.activity.LoginActivity" />
+        <activity android:name=".me.activity.RegisterActivity" />
+        <activity android:name=".me.activity.FindPassActivity" />
+        <activity android:name=".activity.EditInfoActivity" />
+        <activity android:name=".me.activity.WebViewActivity" />
+        <activity android:name=".me.activity.MyNoticeActivity" />
+        <activity android:name=".me.activity.PersonActivity" />
+        <activity android:name=".me.activity.BookingCarActivity" />
+        <activity android:name=".me.activity.MyOrdersActivity" />
+        <activity android:name=".me.activity.AddRessActivity" />
+        <activity android:name=".me.activity.CoursesActivity" />
+        <activity android:name=".me.activity.CollectActivity" />
+        <activity android:name=".me.activity.ConsultActivity" />
+        <activity android:name=".me.activity.RelationActivity" />
+        <activity android:name=".me.activity.RegardActivity"></activity>
     </application>
 
 </manifest>

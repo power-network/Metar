@@ -13,8 +13,8 @@
 
         <ImageView
             android:id="@+id/my_image"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
             android:background="@mipmap/tongzhi"
             />
     </LinearLayout>
@@ -524,7 +524,7 @@
                 android:gravity="center"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text=""
+                android:text="登录"
                 android:textColor="@color/colorTheme"
                 android:textSize="16dp"
                 />

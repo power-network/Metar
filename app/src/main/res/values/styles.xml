@@ -14,4 +14,11 @@
         <item name="android:minHeight">25dp</item>
     </style>
 
+    <style name="RememberPswdCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style1</item>
+    </style>
+
+    <style name="RegisterCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_register</item>
+    </style>
 </resources>
